@@ -5,7 +5,7 @@ import Session from "../models/Session.js";
 // Step 2: Start Session (Admin)
 const hanldeStartSession = async (req,res) => {
   try {
-    console.log("call")
+    
     const uniqueId = uuidv4();
     const userUrl = `http://localhost:5173/session/${uniqueId}`;
 
